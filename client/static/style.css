@@ -1,0 +1,42 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "geneva", sans-serif;
+}
+#container {
+	width: 90%;
+	margin: 0px auto;
+	padding: 20px;
+}
+	h1 {
+		border-bottom: 1px solid gray;
+	}
+	#add_post {
+		width: 85%;
+		margin: 20px auto;
+	}
+		#add_post label, #add_post input {
+			display: block;
+		}
+		.submit {
+			padding: 3px;
+			background-color: lightblue;
+			border-radius: 3px;
+		}
+	.post {
+		width: 80%;
+		margin: 10px auto;
+	}
+		.post h3 {
+			display: block;
+		}
+		.comments {
+			width: 75%;
+			margin: 10px auto;
+		}
+			.inner_comments {
+				margin-top: 10px;
+			}
+			.add_comment label, .add_comment input {
+				display: block;
+			}
